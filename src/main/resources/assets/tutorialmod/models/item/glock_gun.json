@@ -1,0 +1,236 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "glock_gun",
+	"texture_size": [4, 4],
+	"textures": {
+		"2": "tutorialmod:item/cano_glock",
+		"3": "tutorialmod:item/ponta_glock",
+		"4": "tutorialmod:item/mira_glock",
+		"5": "tutorialmod:item/gatilho_glock",
+		"particle": "tutorialmod:item/cano_glock"
+	},
+	"elements": [
+		{
+			"from": [7, 4, 6],
+			"to": [8, 4.8, 10],
+			"faces": {
+				"north": {"uv": [0, 12, 2, 13.5], "texture": "#2"},
+				"east": {"uv": [4, 2, 12, 3.5], "texture": "#2"},
+				"south": {"uv": [12, 0, 14, 1.5], "texture": "#2"},
+				"west": {"uv": [4, 2, 12, 3.5], "texture": "#2"},
+				"up": {"uv": [2, 8, 0, 0], "texture": "#2"},
+				"down": {"uv": [4, 0, 2, 8], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.1, 3.6, 6.2],
+			"to": [7.9, 4, 9.8],
+			"faces": {
+				"north": {"uv": [8, 12, 9.5, 13], "texture": "#2"},
+				"east": {"uv": [8, 4, 15, 5], "texture": "#2"},
+				"south": {"uv": [12, 8, 13.5, 9], "texture": "#2"},
+				"west": {"uv": [8, 6, 15, 7], "texture": "#2"},
+				"up": {"uv": [5.5, 11, 4, 4], "texture": "#2"},
+				"down": {"uv": [7.5, 4, 6, 11], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.1, 2.3, 8.8],
+			"to": [7.9, 3.8, 9.6],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.5, 3.1, 9.2]},
+			"faces": {
+				"north": {"uv": [0, 8, 1.5, 11], "texture": "#2"},
+				"east": {"uv": [2, 8, 3.5, 11], "texture": "#2"},
+				"south": {"uv": [8, 8, 9.5, 11], "texture": "#2"},
+				"west": {"uv": [10, 8, 11.5, 11], "texture": "#2"},
+				"up": {"uv": [3.5, 13.5, 2, 12], "texture": "#2"},
+				"down": {"uv": [13.5, 2, 12, 3.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.25, 2.21, 9.15],
+			"to": [7.75, 2.51, 9.83],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.5, 3.1, 9.2]},
+			"faces": {
+				"north": {"uv": [6, 14, 7, 14.5], "texture": "#2"},
+				"east": {"uv": [12, 12, 13.5, 12.5], "texture": "#2"},
+				"south": {"uv": [8, 14, 9, 14.5], "texture": "#2"},
+				"west": {"uv": [0, 14, 1.5, 14.5], "texture": "#2"},
+				"up": {"uv": [11, 13.5, 10, 12], "texture": "#2"},
+				"down": {"uv": [13, 10, 12, 11.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.1, 2.2, 9.1],
+			"to": [7.9, 2.21, 9.9],
+			"faces": {
+				"north": {"uv": [14, 0, 15.5, 0.5], "texture": "#2"},
+				"east": {"uv": [2, 14, 3.5, 14.5], "texture": "#2"},
+				"south": {"uv": [14, 2, 15.5, 2.5], "texture": "#2"},
+				"west": {"uv": [4, 14, 5.5, 14.5], "texture": "#2"},
+				"up": {"uv": [5.5, 13.5, 4, 12], "texture": "#2"},
+				"down": {"uv": [7.5, 12, 6, 13.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.3, 4.2, 5.9],
+			"to": [7.7, 4.6, 6],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#3"},
+				"east": {"uv": [4, 0, 5, 2], "texture": "#3"},
+				"south": {"uv": [0, 4, 2, 6], "texture": "#3"},
+				"west": {"uv": [4, 4, 5, 6], "texture": "#3"},
+				"up": {"uv": [2, 9, 0, 8], "texture": "#3"},
+				"down": {"uv": [10, 0, 8, 1], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.5, 4.8, 6.2],
+			"to": [7.6, 5, 6.29],
+			"faces": {
+				"north": {"uv": [0, 4, 0.25, 4.5], "texture": "#4"},
+				"east": {"uv": [4, 0, 4.25, 0.5], "texture": "#4"},
+				"south": {"uv": [2, 4, 2.25, 4.5], "texture": "#4"},
+				"west": {"uv": [4, 2, 4.25, 2.5], "texture": "#4"},
+				"up": {"uv": [0.25, 8.25, 0, 8], "texture": "#4"},
+				"down": {"uv": [8.25, 0, 8, 0.25], "texture": "#4"}
+			}
+		},
+		{
+			"from": [7.7, 4.88, 9.6],
+			"to": [7.8, 5.08, 9.69],
+			"faces": {
+				"north": {"uv": [4, 4, 4.25, 4.5], "texture": "#4"},
+				"east": {"uv": [0, 6, 0.25, 6.5], "texture": "#4"},
+				"south": {"uv": [6, 0, 6.25, 0.5], "texture": "#4"},
+				"west": {"uv": [2, 6, 2.25, 6.5], "texture": "#4"},
+				"up": {"uv": [2.25, 8.25, 2, 8], "texture": "#4"},
+				"down": {"uv": [8.25, 2, 8, 2.25], "texture": "#4"}
+			}
+		},
+		{
+			"from": [7.2, 4.88, 9.6],
+			"to": [7.3, 5.08, 9.69],
+			"faces": {
+				"north": {"uv": [6, 2, 6.25, 2.5], "texture": "#4"},
+				"east": {"uv": [4, 6, 4.25, 6.5], "texture": "#4"},
+				"south": {"uv": [6, 4, 6.25, 4.5], "texture": "#4"},
+				"west": {"uv": [6, 6, 6.25, 6.5], "texture": "#4"},
+				"up": {"uv": [4.25, 8.25, 4, 8], "texture": "#4"},
+				"down": {"uv": [8.25, 4, 8, 4.25], "texture": "#4"}
+			}
+		},
+		{
+			"from": [7.1, 4.8, 9.6],
+			"to": [7.9, 4.88, 9.69],
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 0.25], "texture": "#4"},
+				"east": {"uv": [6, 8, 6.25, 8.25], "texture": "#4"},
+				"south": {"uv": [0, 2, 1.5, 2.25], "texture": "#4"},
+				"west": {"uv": [8, 6, 8.25, 6.25], "texture": "#4"},
+				"up": {"uv": [3.5, 0.25, 2, 0], "texture": "#4"},
+				"down": {"uv": [3.5, 2, 2, 2.25], "texture": "#4"}
+			}
+		},
+		{
+			"from": [7.47, 3.3, 8.3],
+			"to": [7.5, 3.6, 8.5],
+			"faces": {
+				"north": {"uv": [6, 0, 6.25, 0.5], "texture": "#5"},
+				"east": {"uv": [0, 4, 0.5, 4.5], "texture": "#5"},
+				"south": {"uv": [2, 6, 2.25, 6.5], "texture": "#5"},
+				"west": {"uv": [4, 0, 4.5, 0.5], "texture": "#5"},
+				"up": {"uv": [6.25, 2.5, 6, 2], "texture": "#5"},
+				"down": {"uv": [4.25, 6, 4, 6.5], "texture": "#5"}
+			}
+		},
+		{
+			"from": [7.48, 3.1, 7.9],
+			"to": [7.49, 3.6, 8],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.5, 3.07, 7.41]},
+			"faces": {
+				"north": {"uv": [2, 4, 2.25, 5], "texture": "#5"},
+				"east": {"uv": [4, 2, 4.25, 3], "texture": "#5"},
+				"south": {"uv": [4, 4, 4.25, 5], "texture": "#5"},
+				"west": {"uv": [0, 6, 0.25, 7], "texture": "#5"},
+				"up": {"uv": [6.25, 4.25, 6, 4], "texture": "#5"},
+				"down": {"uv": [6.25, 6, 6, 6.25], "texture": "#5"}
+			}
+		},
+		{
+			"from": [7.48, 3.02, 7.96],
+			"to": [7.49, 3.12, 8.86],
+			"faces": {
+				"north": {"uv": [0, 8, 0.25, 8.25], "texture": "#5"},
+				"east": {"uv": [0, 0, 1.75, 0.25], "texture": "#5"},
+				"south": {"uv": [8, 0, 8.25, 0.25], "texture": "#5"},
+				"west": {"uv": [0, 2, 1.75, 2.25], "texture": "#5"},
+				"up": {"uv": [2.25, 1.75, 2, 0], "texture": "#5"},
+				"down": {"uv": [2.25, 2, 2, 3.75], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [5, 0, 0],
+			"translation": [0.75, 5.5, -0.5],
+			"scale": [1.12109, 1.24805, 1.16406]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [5, 0, 0],
+			"translation": [0.75, 5.5, -0.5],
+			"scale": [1.12109, 1.24805, 1.16406]
+		},
+		"firstperson_righthand": {
+			"rotation": [5, 0, 0],
+			"translation": [0.5, 13, 0],
+			"scale": [2.625, 2.48438, 2.01563]
+		},
+		"firstperson_lefthand": {
+			"rotation": [5, 0, 0],
+			"translation": [-2.25, 13, -0.25],
+			"scale": [2.625, 2.48438, 2.01563]
+		},
+		"ground": {
+			"rotation": [-2.04, 0, 90.7],
+			"translation": [-9.25, -1.25, 0.75],
+			"scale": [2.625, 2.48438, 2.01563]
+		},
+		"gui": {
+			"rotation": [172.95, -44.86, 174.97],
+			"translation": [-1, 13.5, -0.25],
+			"scale": [2.625, 3.11523, 2.91211]
+		},
+		"fixed": {
+			"rotation": [56.3, -87.27, 55.14],
+			"translation": [-1, 13.25, 0.75],
+			"scale": [2.625, 3.11523, 2.91211]
+		}
+	},
+	"groups": [
+		{
+			"name": "cano_glock",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		},
+		{
+			"name": "ponta_glock",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [5]
+		},
+		{
+			"name": "mira_glock",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [6, 7, 8, 9]
+		},
+		{
+			"name": "gatilho_glock",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [10, 11, 12]
+		}
+	]
+}
