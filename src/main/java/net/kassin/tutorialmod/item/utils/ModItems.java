@@ -3,7 +3,6 @@ package net.kassin.tutorialmod.item.utils;
 import net.kassin.tutorialmod.TutorialMod;
 import net.kassin.tutorialmod.item.client.AnimatedItemModel;
 import net.kassin.tutorialmod.item.custom.AnimatedItem;
-import net.kassin.tutorialmod.item.guns.GlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,8 +17,6 @@ public class ModItems {
     public static final RegistryObject<Item> KEY_CHEST = ITEMS.register("keychest",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> GLOCK_GUN = ITEMS.register("glock_gun",
-            () -> new GlockItem(new Item.Properties()));
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer",
             () -> new Item(new Item.Properties()));
 

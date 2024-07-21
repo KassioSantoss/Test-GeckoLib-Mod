@@ -1,7 +1,6 @@
 package net.kassin.tutorialmod.item.utils;
 
 import net.kassin.tutorialmod.TutorialMod;
-import net.kassin.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,9 +19,6 @@ public class ModCreativeModTabs {
                     .title(Component.literal("Mod Tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.KEY_CHEST.get());
-                        output.accept(ModBlocks.CHEST_DEFAULT.get());
-                        output.accept(ModBlocks.TESTE_BLOCK.get());
-                        output.accept(ModItems.GLOCK_GUN.get());
                         output.accept(ModItems.HAMMER.get());
                         output.accept(ModItems.WATER_GUN.get());
                     })
