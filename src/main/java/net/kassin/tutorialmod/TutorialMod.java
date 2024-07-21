@@ -22,24 +22,6 @@ public class TutorialMod {
     public TutorialMod() {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        System.out.println("CHAMOU GECKOLIBCACHE");
-        GeckoLibCache.registerReloadListener();
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
