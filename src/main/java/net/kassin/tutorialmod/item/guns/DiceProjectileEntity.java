@@ -1,11 +1,9 @@
 package net.kassin.tutorialmod.item.guns;
 
 
-import net.kassin.tutorialmod.entity.ModEntities;
+import net.kassin.tutorialmod.ignore.entity.ModEntities;
 import net.kassin.tutorialmod.item.utils.ModItems;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,7 +29,7 @@ public class DiceProjectileEntity extends ThrowableItemProjectile {
 
     @Override
     protected Item getDefaultItem() {
-        return ModItems.GLOCK_GUN.get();
+        return ModItems.WATER_GUN.get();
     }
 
     @Override

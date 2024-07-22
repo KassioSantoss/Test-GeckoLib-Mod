@@ -1,4 +1,4 @@
-package net.kassin.tutorialmod.events;
+package net.kassin.tutorialmod.ignore.events;
 
 import net.kassin.tutorialmod.item.utils.ModItems;
 import net.minecraft.network.chat.Component;
@@ -42,7 +42,7 @@ public class JumpEvent {
 
             if (valueJumps >= 5) {
 
-                ItemStack itemStack = new ItemStack(ModItems.GLOCK_GUN.get());
+                ItemStack itemStack = new ItemStack(ModItems.WATER_GUN.get());
                 player.getInventory().add(itemStack);
                 playerMap.remove(player.getUUID());
 

@@ -1,4 +1,4 @@
-package net.kassin.tutorialmod.block;
+package net.kassin.tutorialmod.ignore.block;
 
 import net.kassin.tutorialmod.TutorialMod;
 import net.kassin.tutorialmod.item.utils.ModItems;

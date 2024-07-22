@@ -1,4 +1,4 @@
-package net.kassin.tutorialmod.entity;
+package net.kassin.tutorialmod.ignore.entity;
 
 import net.kassin.tutorialmod.TutorialMod;
 import net.kassin.tutorialmod.item.guns.DiceProjectileEntity;

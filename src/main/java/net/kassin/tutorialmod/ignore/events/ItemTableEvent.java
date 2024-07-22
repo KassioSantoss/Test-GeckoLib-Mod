@@ -1,4 +1,4 @@
-package net.kassin.tutorialmod.events;
+package net.kassin.tutorialmod.ignore.events;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EntityType;

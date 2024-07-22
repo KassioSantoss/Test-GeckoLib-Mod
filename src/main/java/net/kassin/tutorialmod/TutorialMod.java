@@ -1,9 +1,6 @@
 package net.kassin.tutorialmod;
 
-import com.mojang.logging.LogUtils;
-import net.kassin.tutorialmod.block.ModBlocks;
-import net.kassin.tutorialmod.entity.ModEntities;
-import net.kassin.tutorialmod.events.ItemTableEvent;
+
 import net.kassin.tutorialmod.item.utils.ModCreativeModTabs;
 import net.kassin.tutorialmod.item.utils.ModItems;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,18 +21,14 @@ public class TutorialMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
-        ModEntities.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
-
         modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
 
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        MinecraftForge.EVENT_BUS.register(new ItemTableEvent());
+
     }
 
 }

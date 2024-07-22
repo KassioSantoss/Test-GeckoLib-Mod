@@ -1,12 +1,10 @@
-package net.kassin.tutorialmod.events;
+package net.kassin.tutorialmod.ignore.events;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import org.joml.Vector3d;
 
 public class ItemTableTask {
 
