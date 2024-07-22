@@ -3,6 +3,9 @@
 /.gradle
 /.idea
 /run
+/main/java/net/kassin/tutorialmod/block/
+/main/java/net/kassin/tutorialmod/entity/
+/main/java/net/kassin/tutorialmod/events/
 
 
 bin

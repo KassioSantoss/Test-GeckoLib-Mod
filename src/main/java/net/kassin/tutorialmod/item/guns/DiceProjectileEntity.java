@@ -31,7 +31,7 @@ public class DiceProjectileEntity extends ThrowableItemProjectile {
 
     @Override
     protected Item getDefaultItem() {
-        return ModItems.GLOCK_GUN.get();
+        return ModItems.WATER_GUN.get();
     }
 
     @Override

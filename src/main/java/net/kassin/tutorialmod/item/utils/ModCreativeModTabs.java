@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.KEY_CHEST.get());
                         output.accept(ModItems.HAMMER.get());
                         output.accept(ModItems.WATER_GUN.get());
+                        output.accept(ModItems.ANIMATED_ITEM.get());
                     })
                     .build());
 
