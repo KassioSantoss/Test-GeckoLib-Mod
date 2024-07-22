@@ -1,7 +1,7 @@
 package net.kassin.tutorialmod.ignore.entity;
 
 import net.kassin.tutorialmod.TutorialMod;
-import net.kassin.tutorialmod.item.guns.DiceProjectileEntity;
+import net.kassin.tutorialmod.ignore.guns.DiceProjectileEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;

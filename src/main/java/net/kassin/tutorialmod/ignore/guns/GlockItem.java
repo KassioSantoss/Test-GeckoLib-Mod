@@ -1,4 +1,4 @@
-package net.kassin.tutorialmod.item.guns;
+package net.kassin.tutorialmod.ignore.guns;
 
 import net.kassin.tutorialmod.item.utils.ModItems;
 import net.minecraft.sounds.SoundEvents;
