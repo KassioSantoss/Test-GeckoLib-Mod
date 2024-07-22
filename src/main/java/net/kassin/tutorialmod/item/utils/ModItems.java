@@ -21,7 +21,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> WATER_GUN = ITEMS.register("water_gun",
-            () -> new AnimatedItem(new Item.Properties(), AnimatedItemModel::new));
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ANIMATED_ITEM = ITEMS.register("animated_item",
+            () -> new AnimatedItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
